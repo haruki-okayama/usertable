@@ -1,6 +1,6 @@
-import { connect, Schema, model, Mixed } from 'mongoose';
-import env from 'dotenv';
-env.config();
+// import { connect, Schema, model, Mixed } from 'mongoose';
+// import env from 'dotenv';
+// env.config();
 
 /**
 String: 文字列
