@@ -27,10 +27,9 @@ is管理者:boolean
 connect(process.env.MONGO_URI);
 
 const userSchema = new Schema({
-  id:{ type: String, required: true},
   name: { type: String, required: true },
   passward: { type: String, required: true },
-  is_admin: { type: Boolean, required: true ,enum:["0","1"]},
+  is_admin: { type: Boolean, required: true },
   grade: {type: String, required: true, enum:["B1","B2","B3","B4","M1","M2","D1","D2","留学生"]},
   student_number: {type: String, required: true},
   room: {type: Number, required:true, enum: ["612","613","教授室"]}
